@@ -1,0 +1,9 @@
+# Mẫu info.lps (định dạng simple key=value)
+Name=VpetCX
+Version=1.0.0
+Author=hanghai27
+Description=Core và plugin mở rộng cho VPet Simulator
+Icon=icon.png
+RequiredFiles=plugin/Interface.dll,plugin/Core.dll
+PluginsDir=plugin/
+License=Apache-2.0
