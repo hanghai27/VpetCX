@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <AssemblyName>Interface</AssemblyName>
-    <!-- OutputPath đặt thành plugin/ để tiện copy runtime -->
-    <OutputPath>../../plugin/</OutputPath>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-</Project>
