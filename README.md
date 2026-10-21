@@ -91,7 +91,8 @@ Có thể dùng tên thư mục tùy ý, kể cả tên locale như `ko` hoặc 
 1. Tạo thư mục mới trong `VpetCX.Core\language`, ví dụ `ko`.
 2. Thêm các tệp `.lps` chứa bản dịch. Giữ nguyên tên khóa và các placeholder như `{0}`.
 3. Thêm khóa `language_name#한국어:|` vào `interface.lps` để đặt tên hiển thị.
-4. Build lại, cài gói mới và khởi động lại VPet; sau đó chọn ngôn ngữ trong cài đặt VpetCX.
+4. Khởi động lại VPet và chọn ngôn ngữ mới trong cài đặt VpetCX.
+( người dùng, chỉ cần copy thư mục ngôn ngữ vào plugin/language/ và khởi động lại game là được).
 
 Tên thư mục được lưu nguyên văn trong cấu hình. Nếu đổi tên thư mục ngôn ngữ, hãy chọn lại ngôn ngữ trong giao diện.
 
