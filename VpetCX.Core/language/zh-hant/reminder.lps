@@ -1,0 +1,44 @@
+reminder_title#提醒:|
+reminder_list_title#倒數提醒:|
+reminder_new#新增提醒:|
+reminder_delete_selected#刪除所選項:|
+reminder_details#提醒詳細資料:|
+reminder_countdown_duration#在此時間後提醒:|
+reminder_unit_hours#小時:|
+reminder_unit_minutes#分鐘:|
+reminder_unit_seconds#秒:|
+reminder_message#提醒內容:|
+reminder_save#儲存變更:|
+reminder_empty_list#目前沒有待處理提醒。:|
+reminder_list_countdown#提醒總數：{0} 項:|
+reminder_delivered#已提醒（VPet啟動時會再次提醒）:|
+reminder_added#已新增倒數提醒。:|
+reminder_select_to_edit#請選擇要編輯的提醒，或新增提醒。:|
+reminder_saved#已儲存變更。:|
+reminder_delete_failed#無法刪除提醒。:|
+reminder_deleted#提醒已刪除。:|
+reminder_save_failed#無法儲存提醒：{0}:|
+reminder_validation#請輸入 1 到 500 個字元的提醒內容。:|
+reminder_invalid_message#提醒內容必須為 1 到 500 個字元。:|
+plugin_description_reminder#可設定秒、分鐘或小時倒數提醒，時間到後及 VPet 啟動時都會讀出提醒內容。:|
+reminder_daily_speech#時間到了：{0}:|
+reminder_set#已設定 {0} {1} 後的提醒：{2} (ID: {3}):|
+reminder_timer_speech#時間到了：「{0}」:|
+reminder_invalid_duration#提醒時間必須介於 1 秒至 365 天。:|
+reminder_not_found#找不到提醒。:|
+reminder_storage_unavailable#提醒儲存空間尚未初始化。:|
+reminder_unknown_action#未知操作。請使用 set、list 或 cancel。:|
+reminder_plugin_stopping#外掛程式正在停止，無法接收新提醒。:|
+reminder_error_time#錯誤：time 必須是正整數。:|
+reminder_error_unit#錯誤：unit 只能是 seconds、minutes 或 hours。:|
+reminder_error_event#錯誤：event 必須包含 1 到 500 個字元。:|
+reminder_error_delay_limit#錯誤：提醒延遲超出支援範圍。:|
+reminder_limit_reached#待處理提醒已達 100 則上限。請先取消一則再新增。:|
+reminder_none_pending#目前沒有待處理的提醒。:|
+reminder_error_cancel_id#錯誤：請輸入要取消的提醒 ID。:|
+reminder_cancel_not_found#找不到 ID 以「{0}」開頭的提醒。:|
+reminder_cancel_ambiguous#ID 不夠明確，請使用提醒清單中更多的 ID 字元。:|
+reminder_cancelled#已取消提醒 {0}。:|
+plugin_parameters_reminder#action(string: set/list/cancel，可選), time(int，set 時必填), unit(string，可選: seconds/minutes/hours), event(string，set 時必填), id(string，cancel 時必填):|
+plugin_examples_reminder#reminder time(10), unit(seconds), event("檢查烤箱") | reminder action(list) | reminder action(cancel), id(abc12345):|
+reminder_list_item#{0} | {1} | {2}:|

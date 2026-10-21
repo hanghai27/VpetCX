@@ -1,0 +1,44 @@
+reminder_title#リマインダー:|
+reminder_list_title#カウントダウンリマインダー:|
+reminder_new#新しいリマインダー:|
+reminder_delete_selected#選択項目を削除:|
+reminder_details#リマインダーの詳細:|
+reminder_countdown_duration#通知までの時間:|
+reminder_unit_hours#時間:|
+reminder_unit_minutes#分:|
+reminder_unit_seconds#秒:|
+reminder_message#リマインダーの内容:|
+reminder_save#変更を保存:|
+reminder_empty_list#保留中のリマインダーはありません。:|
+reminder_list_countdown#リマインダー合計：{0} 件:|
+reminder_delivered#通知済み（VPetの起動時に再通知）:|
+reminder_added#カウントダウンリマインダーを追加しました。:|
+reminder_select_to_edit#編集するリマインダーを選ぶか、新しいリマインダーを作成してください。:|
+reminder_saved#変更を保存しました。:|
+reminder_delete_failed#リマインダーを削除できませんでした。:|
+reminder_deleted#リマインダーを削除しました。:|
+reminder_save_failed#リマインダーを保存できませんでした: {0}:|
+reminder_validation#リマインダーを1～500文字で入力してください。:|
+reminder_invalid_message#リマインダーの内容は1～500文字で入力してください。:|
+plugin_description_reminder#秒、分、時間単位のカウントダウンを設定できます。時間になるとVPetが読み上げ、VPetの起動時にも再通知します。:|
+reminder_daily_speech#時間です: {0}:|
+reminder_set#{0} {1}後にリマインダーを設定しました: {2} (ID: {3}):|
+reminder_timer_speech#時間です: 「{0}」:|
+reminder_invalid_duration#通知時間は1秒から365日までにしてください。:|
+reminder_not_found#リマインダーが見つかりません。:|
+reminder_storage_unavailable#リマインダーの保存領域が初期化されていません。:|
+reminder_unknown_action#不明な操作です。set、list、cancelを指定してください。:|
+reminder_plugin_stopping#プラグインを終了中のため、新しいリマインダーを受け付けられません。:|
+reminder_error_time#エラー: timeは正の整数で指定してください。:|
+reminder_error_unit#エラー: unitはseconds、minutes、hoursのいずれかを指定してください。:|
+reminder_error_event#エラー: eventは1～500文字で入力してください。:|
+reminder_error_delay_limit#エラー: リマインダーの時間がサポート上限を超えています。:|
+reminder_limit_reached#保留中のリマインダーが100件に達しました。追加する前に1件キャンセルしてください。:|
+reminder_none_pending#保留中のリマインダーはありません。:|
+reminder_error_cancel_id#エラー: キャンセルするリマインダーのIDを入力してください。:|
+reminder_cancel_not_found#IDが「{0}」で始まるリマインダーは見つかりませんでした。:|
+reminder_cancel_ambiguous#IDが特定できません。リマインダー一覧からさらに多くの文字を指定してください。:|
+reminder_cancelled#リマインダー {0} をキャンセルしました。:|
+plugin_parameters_reminder#action(string: set/list/cancel、任意), time(int、set で必須), unit(string、任意: seconds/minutes/hours), event(string、set で必須), id(string、cancel で必須):|
+plugin_examples_reminder#reminder time(10), unit(seconds), event("オーブンを確認する") | reminder action(list) | reminder action(cancel), id(abc12345):|
+reminder_list_item#{0} | {1} | {2}:|

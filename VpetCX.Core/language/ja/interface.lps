@@ -1,0 +1,39 @@
+menu_reminder#リマインダー:|
+console_no_utilities#ユーティリティがありません:|
+console_no_plugins#MOD フォルダーにプラグインが見つかりません。:|
+console_arguments#引数:|
+console_example#例:|
+console_usage#使い方:|
+console_argument_placeholder#引数:|
+console_ready#準備完了:|
+console_disabled#無効:|
+console_settings_save_failed#設定を保存できません:|
+console_restart_required#設定を保存しました。変更を適用するにはVPetを再起動してください。:|
+console_language_save_failed#言語を保存できません: {0}:|
+console_subtitle#ユーティリティセンター:|
+console_settings#設定:|
+console_settings_description#有効/無効の変更はVPetの再起動後に反映され、「DIY」の対応ウィンドウも更新されます。:|
+console_language#言語:|
+console_enabled_count#{0} 件有効:|
+console_enable#有効にする:|
+console_disable#無効にする:|
+console_running#実行中...:|
+console_run#実行:|
+console_footer_help#ユーティリティを選択してヘルプを表示 · Enter で実行:|
+console_command_hint#VpetCX modの設定でユーティリティを管理します:|
+console_result_placeholder#コマンドの結果がここに表示されます。:|
+console_enter_command#コマンドを入力してください:|
+console_running_status#実行中:|
+console_command_completed#コマンドが完了しました。:|
+console_completed_status#完了:|
+console_error#エラー:|
+plugin_diary#日記:|
+plugin_reminder#リマインダー:|
+plugin_weather#天気:|
+language_name#日本語:|
+menu_diary#日記:|
+menu_weather#天気:|
+api_started#VpetCX HTTP API が起動しました: {0}:|
+utility_disabled#このユーティリティは mod 設定で無効になっています。:|
+console_toggle_enable#有効:|
+console_toggle_disable#無効:|

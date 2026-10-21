@@ -1,0 +1,44 @@
+reminder_title#Nhắc nhở:|
+reminder_list_title#Lịch đếm ngược:|
+reminder_new#Nhắc nhở mới:|
+reminder_delete_selected#Xóa mục đã chọn:|
+reminder_details#Chi tiết nhắc nhở:|
+reminder_countdown_duration#Nhắc sau khoảng thời gian:|
+reminder_unit_hours#Giờ:|
+reminder_unit_minutes#Phút:|
+reminder_unit_seconds#Giây:|
+reminder_message#Nội dung nhắc nhở:|
+reminder_save#Lưu thay đổi:|
+reminder_empty_list#Chưa có nhắc nhở đang chờ.:|
+reminder_list_countdown#Tổng số nhắc nhở: {0}:|
+reminder_delivered#Đã nhắc (sẽ nhắc lại khi mở VPet):|
+reminder_added#Đã thêm nhắc nhở đếm ngược.:|
+reminder_select_to_edit#Chọn lịch cần sửa hoặc bấm Nhắc nhở mới.:|
+reminder_saved#Đã lưu thay đổi.:|
+reminder_delete_failed#Không thể xóa lịch nhắc.:|
+reminder_deleted#Đã xóa lịch nhắc.:|
+reminder_save_failed#Không thể lưu nhắc nhở: {0}:|
+reminder_validation#Nhập nội dung nhắc nhở từ 1 đến 500 ký tự.:|
+reminder_invalid_message#Nội dung nhắc nhở phải có từ 1 đến 500 ký tự.:|
+plugin_description_reminder#Đặt nhắc nhở đếm ngược theo giây, phút hoặc giờ; VPet sẽ đọc lời nhắc khi hết thời gian và nhắc lại khi mở lại VPet.:|
+reminder_daily_speech#Đến giờ: {0}:|
+reminder_set#Đã đặt nhắc nhở sau {0} {1}: {2} (ID: {3}):|
+reminder_timer_speech#Đã đến giờ: "{0}":|
+reminder_invalid_duration#Thời lượng phải từ 1 giây đến 365 ngày.:|
+reminder_not_found#Không tìm thấy nhắc nhở.:|
+reminder_storage_unavailable#Bộ lưu nhắc nhở chưa được khởi tạo.:|
+reminder_unknown_action#Hành động không hợp lệ. Dùng set, list hoặc cancel.:|
+reminder_plugin_stopping#Plugin đang dừng và không nhận thêm nhắc nhở.:|
+reminder_error_time#Lỗi: time phải là số nguyên dương.:|
+reminder_error_unit#Lỗi: unit chỉ nhận seconds, minutes hoặc hours.:|
+reminder_error_event#Lỗi: event phải có từ 1 đến 500 ký tự.:|
+reminder_error_delay_limit#Lỗi: Thời gian nhắc nhở vượt quá giới hạn hỗ trợ.:|
+reminder_limit_reached#Đã đạt giới hạn 100 nhắc nhở đang chờ. Hãy hủy một nhắc nhở trước.:|
+reminder_none_pending#Không có nhắc nhở nào đang chờ.:|
+reminder_error_cancel_id#Lỗi: Nhập id của nhắc nhở cần hủy.:|
+reminder_cancel_not_found#Không tìm thấy nhắc nhở có ID bắt đầu bằng '{0}'.:|
+reminder_cancel_ambiguous#ID không đủ cụ thể. Hãy dùng thêm ký tự từ danh sách nhắc nhở.:|
+reminder_cancelled#Đã hủy nhắc nhở {0}.:|
+plugin_parameters_reminder#action(string: set/list/cancel, tùy chọn), time(int, bắt buộc khi set), unit(string, tùy chọn: seconds/minutes/hours), event(string, bắt buộc khi set), id(string, bắt buộc khi cancel):|
+plugin_examples_reminder#reminder time(10), unit(seconds), event("kiểm tra lò nướng") | reminder action(list) | reminder action(cancel), id(abc12345):|
+reminder_list_item#{0} | {1} | {2}:|

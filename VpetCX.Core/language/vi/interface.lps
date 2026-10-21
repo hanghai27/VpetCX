@@ -1,0 +1,39 @@
+menu_reminder#Nhắc nhở:|
+console_no_utilities#Chưa có tiện ích:|
+console_no_plugins#Không tìm thấy tiện ích nào trong thư mục mod.:|
+console_arguments#THAM SỐ:|
+console_example#VÍ DỤ:|
+console_usage#CÁCH DÙNG:|
+console_argument_placeholder#tham số:|
+console_ready#SẴN SÀNG:|
+console_disabled#TIỆN ÍCH ĐANG TẮT:|
+console_settings_save_failed#KHÔNG LƯU ĐƯỢC CÀI ĐẶT:|
+console_restart_required#Đã lưu cài đặt. Vui lòng khởi động lại VPet để áp dụng thay đổi.:|
+console_language_save_failed#Không thể lưu ngôn ngữ: {0}:|
+console_subtitle#TRUNG TÂM TIỆN ÍCH:|
+console_settings#Cài đặt:|
+console_settings_description#Thay đổi bật/tắt sẽ áp dụng sau khi khởi động lại VPet; cửa sổ tiện ích tương ứng trong mục Tự chọn cũng sẽ được cập nhật.:|
+console_language#Ngôn ngữ:|
+console_enabled_count#{0} TIỆN ÍCH ĐANG BẬT:|
+console_enable#Bật:|
+console_disable#Tắt:|
+console_running#Đang chạy...:|
+console_run#Chạy lệnh:|
+console_footer_help#Chọn tiện ích để xem hướng dẫn · Nhấn Enter để chạy lệnh:|
+console_command_hint#Quản lý tiện ích trong cài đặt mod VpetCX:|
+console_result_placeholder#Kết quả lệnh sẽ hiển thị tại đây.:|
+console_enter_command#NHẬP LỆNH TRƯỚC KHI CHẠY:|
+console_running_status#ĐANG THỰC THI:|
+console_command_completed#Lệnh đã hoàn tất.:|
+console_completed_status#HOÀN TẤT:|
+console_error#CÓ LỖI:|
+plugin_diary#Nhật ký:|
+plugin_reminder#Nhắc nhở:|
+plugin_weather#Thời tiết:|
+language_name#Tiếng Việt:|
+menu_diary#Nhật ký:|
+menu_weather#Thời tiết:|
+api_started#API HTTP VpetCX đã khởi động: {0}:|
+utility_disabled#Tiện ích hiện đang bị tắt trong cài đặt mod.:|
+console_toggle_enable#Bật:|
+console_toggle_disable#Tắt:|

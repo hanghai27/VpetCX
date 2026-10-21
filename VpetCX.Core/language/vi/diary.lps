@@ -1,0 +1,25 @@
+plugin_description_diary#Lưu nhật ký trên máy, hỗ trợ xem, tìm kiếm và xóa mục.:|
+diary_storage_location#Nhật ký được lưu tại: {0}:|
+diary_unknown_action#Hành động không xác định: {0}. Dùng view, write, search hoặc delete.:|
+diary_operation_failed#Không thể thao tác với nhật ký: {0}:|
+diary_error_write_text#Lỗi: Nhập text từ 1 đến 4000 ký tự, ví dụ text("Hôm nay mình đã đi dạo").:|
+diary_limit_reached#Nhật ký đã đạt giới hạn {0} mục. Hãy xóa bớt mục cũ trước khi ghi thêm.:|
+diary_saved#Đã lưu nhật ký lúc {0:yyyy-MM-dd HH:mm}. ID: {1}:|
+diary_error_search_text#Lỗi: Nhập từ khóa tìm kiếm trong text(...).:|
+diary_search_no_results#Không tìm thấy nhật ký chứa "{0}".:|
+diary_error_delete_id#Lỗi: Nhập id của nhật ký cần xóa (ID được hiển thị khi xem/tìm kiếm).:|
+diary_delete_not_found#Không tìm thấy nhật ký có ID bắt đầu bằng '{0}'.:|
+diary_delete_ambiguous#ID không đủ cụ thể; hãy dùng thêm ký tự ID từ kết quả tìm kiếm.:|
+diary_deleted#Đã xóa nhật ký {0}.:|
+diary_empty#Chưa có mục nhật ký nào.:|
+plugin_parameters_diary#action(string: view/write/search/delete), text(string, bắt buộc khi write/search), search(string, bí danh cũ của text), id(string, bắt buộc khi delete):|
+plugin_examples_diary#diary action(write), text("Một mục nhật ký mẫu") | diary action(search), text("mẫu"):|
+diary_entry_line#[{0}] {1}: {2}:|
+diary_window_title#Quản lý nhật ký:|
+diary_window_entry_hint#Nhập nội dung nhật ký tại đây:|
+diary_window_search_hint#Tìm trong nhật ký:|
+diary_window_id_hint#ID mục nhật ký cần xóa:|
+diary_window_add#Lưu mục:|
+diary_window_list#Xem mục mới nhất:|
+diary_window_search#Tìm kiếm:|
+diary_window_delete#Xóa theo ID:|

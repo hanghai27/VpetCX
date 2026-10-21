@@ -1,0 +1,25 @@
+plugin_description_diary#在本機儲存日記，並可檢視、搜尋與刪除。:|
+diary_storage_location#日記儲存位置：{0}:|
+diary_unknown_action#未知操作：{0}。請使用 view、write、search 或 delete。:|
+diary_operation_failed#無法操作日記：{0}:|
+diary_error_write_text#錯誤：請輸入 1 到 4000 個字元，例如 text("日記內容")。:|
+diary_limit_reached#日記已達到 {0} 筆上限。請先刪除舊項目再新增。:|
+diary_saved#日記已於 {0:yyyy-MM-dd HH:mm} 儲存。ID：{1}:|
+diary_error_search_text#錯誤：請在 text(...) 中輸入搜尋關鍵詞。:|
+diary_search_no_results#找不到包含「{0}」的日記。:|
+diary_error_delete_id#錯誤：請輸入要刪除的日記 ID（可在檢視或搜尋結果中找到）。:|
+diary_delete_not_found#找不到 ID 以「{0}」開頭的日記。:|
+diary_delete_ambiguous#ID 不夠明確，請使用搜尋結果中更多的 ID 字元。:|
+diary_deleted#已刪除日記 {0}。:|
+diary_empty#尚無日記項目。:|
+plugin_parameters_diary#action(string: view/write/search/delete), text(string，write/search 時必填), search(string，text 的舊別名), id(string，delete 時必填):|
+plugin_examples_diary#diary action(write), text("一則日記範例") | diary action(search), text("範例"):|
+diary_window_title#日誌管理:|
+diary_window_entry_hint#在此輸入日誌內容:|
+diary_window_search_hint#搜尋日誌:|
+diary_window_id_hint#要刪除的項目 ID:|
+diary_window_add#儲存項目:|
+diary_window_list#顯示最近項目:|
+diary_window_search#搜尋:|
+diary_window_delete#依 ID 刪除:|
+diary_entry_line#[{0}] {1}: {2}:|

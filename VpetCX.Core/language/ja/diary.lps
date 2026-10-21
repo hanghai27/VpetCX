@@ -1,0 +1,25 @@
+plugin_description_diary#日記をローカルに保存し、閲覧、検索、削除できます。:|
+diary_storage_location#日記の保存先: {0}:|
+diary_unknown_action#不明な操作: {0}。view、write、search、deleteを指定してください。:|
+diary_operation_failed#日記を操作できませんでした: {0}:|
+diary_error_write_text#エラー: text("日記")のように1～4000文字を入力してください。:|
+diary_limit_reached#日記が上限の{0}件に達しました。新しく追加する前に古い項目を削除してください。:|
+diary_saved#{0:yyyy-MM-dd HH:mm}に日記を保存しました。ID: {1}:|
+diary_error_search_text#エラー: text(...)に検索キーワードを入力してください。:|
+diary_search_no_results#「{0}」を含む日記は見つかりませんでした。:|
+diary_error_delete_id#エラー: 削除する日記のIDを入力してください（閲覧・検索結果に表示されます）。:|
+diary_delete_not_found#IDが「{0}」で始まる日記は見つかりませんでした。:|
+diary_delete_ambiguous#IDが特定できません。検索結果からさらに多くの文字を指定してください。:|
+diary_deleted#日記 {0} を削除しました。:|
+diary_empty#日記はまだありません。:|
+plugin_parameters_diary#action(string: view/write/search/delete), text(string, write/search で必須), search(string, text の旧エイリアス), id(string, delete で必須):|
+plugin_examples_diary#diary action(write), text("日記のサンプル") | diary action(search), text("サンプル"):|
+diary_window_title#日記管理:|
+diary_window_entry_hint#ここに日記を入力:|
+diary_window_search_hint#日記を検索:|
+diary_window_id_hint#削除する項目のID:|
+diary_window_add#保存:|
+diary_window_list#最近の項目を表示:|
+diary_window_search#検索:|
+diary_window_delete#IDで削除:|
+diary_entry_line#[{0}] {1}: {2}:|

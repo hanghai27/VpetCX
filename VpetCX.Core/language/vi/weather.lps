@@ -1,0 +1,46 @@
+plugin_description_weather#Tra cứu thời tiết hiện tại và dự báo 4 ngày trên toàn thế giới bằng Open-Meteo.:|
+weather_error_city#Lỗi: Vui lòng nhập tên thành phố từ 1 đến 120 ký tự, ví dụ city(Hanoi).:|
+weather_error_type#Lỗi: type chỉ nhận current hoặc forecast.:|
+weather_no_location#Không tìm thấy địa điểm '{0}'. Hãy thử tên thành phố cụ thể hơn.:|
+weather_connection_failed#Không thể kết nối Open-Meteo. Hãy kiểm tra Internet rồi thử lại.:|
+weather_timeout#Open-Meteo phản hồi quá thời gian. Hãy thử lại.:|
+weather_invalid_response#Open-Meteo trả về dữ liệu không hợp lệ. Hãy thử lại sau.:|
+weather_incomplete_data#Open-Meteo trả về dữ liệu thời tiết chưa đầy đủ cho địa điểm này.:|
+weather_current#Thời tiết hiện tại:|
+weather_conditions#Trạng thái:|
+weather_temperature#Nhiệt độ:|
+weather_feels_like#Cảm giác như:|
+weather_humidity#Độ ẩm:|
+weather_precipitation#Lượng mưa:|
+weather_wind#Gió:|
+weather_precipitation_chance#, khả năng mưa :|
+weather_forecast_title#Dự báo thời tiết 4 ngày tại:|
+weather_condition_clear#Trời quang:|
+weather_condition_mainly_clear#Ít mây:|
+weather_condition_partly_cloudy#Mây rải rác:|
+weather_condition_overcast#Nhiều mây:|
+weather_condition_fog#Sương mù:|
+weather_condition_drizzle#Mưa phùn:|
+weather_condition_freezing_drizzle#Mưa phùn đóng băng:|
+weather_condition_rain#Mưa:|
+weather_condition_freezing_rain#Mưa đóng băng:|
+weather_condition_snow#Tuyết:|
+weather_condition_rain_showers#Mưa rào:|
+weather_condition_snow_showers#Mưa tuyết:|
+weather_condition_thunderstorm#Dông:|
+weather_condition_thunderstorm_hail#Dông kèm mưa đá:|
+weather_condition_unknown#Không rõ tình trạng thời tiết:|
+plugin_parameters_weather#city(string, bắt buộc), type(string, tùy chọn: current/forecast):|
+plugin_examples_weather#weather city(Hanoi), type(current) | weather city(Tokyo), type(forecast):|
+weather_window_title#Thời tiết:|
+weather_error_location#Vui lòng nhập địa điểm từ 1 đến 120 ký tự.:|
+weather_window_location_hint#Nhập thành phố, huyện hoặc khu vực:|
+weather_window_search#Tìm địa điểm:|
+weather_window_select_location#Chọn một địa điểm trong danh sách:|
+weather_window_locations_found#Tìm thấy {0} địa điểm. Hãy chọn địa điểm cần xem.:|
+weather_window_current#Thời tiết hiện tại:|
+weather_window_forecast#Dự báo 4 ngày:|
+weather_window_speak#Đọc kết quả cho thú cưng bằng LocalSpeechServer:|
+weather_window_spoken#Thú cưng đang đọc kết quả thời tiết.:|
+weather_window_speech_failed#Không gửi được lời thoại tới LocalSpeechServer.:|
+weather_window_placeholder#Nhập thành phố, huyện hoặc khu vực, tìm và chọn địa điểm để xem thời tiết.:|

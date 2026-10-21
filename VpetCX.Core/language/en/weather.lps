@@ -1,0 +1,46 @@
+plugin_description_weather#Get current weather and a 4-day forecast worldwide using Open-Meteo.:|
+weather_error_city#Error: Please provide a city name of 1 to 120 characters, for example city(Hanoi).:|
+weather_error_type#Error: type must be current or forecast.:|
+weather_no_location#No location found for '{0}'. Try a more specific city name.:|
+weather_connection_failed#Could not reach Open-Meteo. Check your internet connection and try again.:|
+weather_timeout#The Open-Meteo request timed out. Please try again.:|
+weather_invalid_response#Open-Meteo returned an invalid response. Please try again later.:|
+weather_incomplete_data#Open-Meteo returned incomplete weather data for this location.:|
+weather_current#Current weather:|
+weather_conditions#Conditions:|
+weather_temperature#Temperature:|
+weather_feels_like#Feels like:|
+weather_humidity#Humidity:|
+weather_precipitation#Precipitation:|
+weather_wind#Wind:|
+weather_precipitation_chance#, precipitation chance :|
+weather_forecast_title#4-day forecast for:|
+weather_condition_clear#Clear sky:|
+weather_condition_mainly_clear#Mainly clear:|
+weather_condition_partly_cloudy#Partly cloudy:|
+weather_condition_overcast#Overcast:|
+weather_condition_fog#Fog:|
+weather_condition_drizzle#Drizzle:|
+weather_condition_freezing_drizzle#Freezing drizzle:|
+weather_condition_rain#Rain:|
+weather_condition_freezing_rain#Freezing rain:|
+weather_condition_snow#Snow:|
+weather_condition_rain_showers#Rain showers:|
+weather_condition_snow_showers#Snow showers:|
+weather_condition_thunderstorm#Thunderstorm:|
+weather_condition_thunderstorm_hail#Thunderstorm with hail:|
+weather_condition_unknown#Unknown conditions:|
+plugin_parameters_weather#city(string, required), type(string, optional: current/forecast):|
+plugin_examples_weather#weather city(Hanoi), type(current) | weather city(Tokyo), type(forecast):|
+weather_window_title#Weather:|
+weather_error_location#Please enter a location between 1 and 120 characters.:|
+weather_window_location_hint#Enter a city, district, or region:|
+weather_window_search#Search locations:|
+weather_window_select_location#Select a location from the list:|
+weather_window_locations_found#Found {0} locations. Select one to view its weather.:|
+weather_window_current#Current weather:|
+weather_window_forecast#4-day forecast:|
+weather_window_speak#Read the result aloud to your pet using LocalSpeechServer:|
+weather_window_spoken#Your pet is reading the weather report.:|
+weather_window_speech_failed#Could not send speech to LocalSpeechServer.:|
+weather_window_placeholder#Enter a city, district, or region, then search and select a location to see its weather.:|

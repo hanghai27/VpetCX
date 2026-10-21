@@ -1,0 +1,25 @@
+plugin_description_diary#Save diary entries locally and view, search, or delete them.:|
+diary_storage_location#Diary entries are stored at: {0}:|
+diary_unknown_action#Unknown action: {0}. Use view, write, search, or delete.:|
+diary_operation_failed#Could not access the diary: {0}:|
+diary_error_write_text#Error: Enter text from 1 to 4000 characters, for example text("My diary entry").:|
+diary_limit_reached#The diary has reached its limit of {0} entries. Delete older entries before adding more.:|
+diary_saved#Diary saved at {0:yyyy-MM-dd HH:mm}. ID: {1}:|
+diary_error_search_text#Error: Enter a search keyword in text(...).:|
+diary_search_no_results#No diary entries contain "{0}".:|
+diary_error_delete_id#Error: Enter the diary entry ID to delete (shown when viewing or searching).:|
+diary_delete_not_found#No diary entry was found with an ID starting with '{0}'.:|
+diary_delete_ambiguous#The ID is not specific enough. Use more characters from the search result.:|
+diary_deleted#Deleted diary entry {0}.:|
+diary_empty#There are no diary entries yet.:|
+plugin_parameters_diary#action(string: view/write/search/delete), text(string, required for write/search), search(string, legacy alias for text), id(string, required for delete):|
+plugin_examples_diary#diary action(write), text("A sample entry") | diary action(search), text("sample"):|
+diary_entry_line#[{0}] {1}: {2}:|
+diary_window_title#Diary manager:|
+diary_window_entry_hint#Write a diary entry here:|
+diary_window_search_hint#Search diary entries:|
+diary_window_id_hint#Entry ID to delete:|
+diary_window_add#Save entry:|
+diary_window_list#Show recent:|
+diary_window_search#Search:|
+diary_window_delete#Delete by ID:|

@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="5.0.21" />
+    <PackageReference Include="VPet-Simulator.Windows.Interface" Version="1.1.0.50">
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VpetCX.Abstractions\VpetCX.Abstractions.csproj" />
+    <ProjectReference Include="..\DiaryPlugin\DiaryPlugin.csproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\ReminderPlugin\ReminderPlugin.csproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\WeatherPlugin\WeatherPlugin.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+  <Target Name="PackageVpetCXMod" AfterTargets="Build">
+    <PropertyGroup>
+      <VpetCXModDirectory>$(MSBuildProjectDirectory)\..\Release\VpetCX</VpetCXModDirectory>
+      <VpetCXPluginDirectory>$(VpetCXModDirectory)\plugin</VpetCXPluginDirectory>
+      <VpetCXPluginTargetFramework>net8.0</VpetCXPluginTargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <VpetCXPluginAssembly Include="$(MSBuildProjectDirectory)\..\DiaryPlugin\bin\$(Configuration)\$(VpetCXPluginTargetFramework)\DiaryPlugin.dll" />
+      <VpetCXPluginAssembly Include="$(MSBuildProjectDirectory)\..\ReminderPlugin\bin\$(Configuration)\$(VpetCXPluginTargetFramework)\ReminderPlugin.dll" />
+      <VpetCXPluginAssembly Include="$(MSBuildProjectDirectory)\..\WeatherPlugin\bin\$(Configuration)\$(VpetCXPluginTargetFramework)\WeatherPlugin.dll" />
+      <VpetCXManagedDependency Include="$(TargetDir)LiteDB.dll" />
+      <VpetCXLocalizationFile Include="$(MSBuildProjectDirectory)\language\**\*.lps" />
+    </ItemGroup>
+
+    <MakeDir Directories="$(VpetCXPluginDirectory)" />
+    <MakeDir Directories="@(VpetCXLocalizationFile->'$(VpetCXPluginDirectory)\language\%(RecursiveDir)')" />
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\..\VpetCX.Mod\info.lps" DestinationFolder="$(VpetCXModDirectory)" />
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\..\icon.png" DestinationFolder="$(VpetCXModDirectory)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(VpetCXPluginDirectory)" />
+    <Copy SourceFiles="@(VpetCXManagedDependency)" DestinationFolder="$(VpetCXPluginDirectory)" />
+    <Copy
+      SourceFiles="@(VpetCXLocalizationFile)"
+      DestinationFiles="@(VpetCXLocalizationFile->'$(VpetCXPluginDirectory)\language\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\..\VpetCX.Abstractions\bin\$(Configuration)\net8.0\VpetCX.Abstractions.dll" DestinationFolder="$(VpetCXPluginDirectory)" />
+    <Copy SourceFiles="@(VpetCXPluginAssembly)" DestinationFolder="$(VpetCXPluginDirectory)" />
+  </Target>
+
+</Project>

@@ -1,0 +1,44 @@
+reminder_title#提醒:|
+reminder_list_title#倒计时提醒:|
+reminder_new#新建提醒:|
+reminder_delete_selected#删除所选项:|
+reminder_details#提醒详情:|
+reminder_countdown_duration#在此时间后提醒:|
+reminder_unit_hours#小时:|
+reminder_unit_minutes#分钟:|
+reminder_unit_seconds#秒:|
+reminder_message#提醒内容:|
+reminder_save#保存更改:|
+reminder_empty_list#当前没有待处理提醒。:|
+reminder_list_countdown#提醒总数：{0} 项:|
+reminder_delivered#已提醒（VPet启动时会再次提醒）:|
+reminder_added#已添加倒计时提醒。:|
+reminder_select_to_edit#请选择要编辑的提醒，或新建提醒。:|
+reminder_saved#更改已保存。:|
+reminder_delete_failed#无法删除提醒。:|
+reminder_deleted#提醒已删除。:|
+reminder_save_failed#无法保存提醒：{0}:|
+reminder_validation#请输入 1 到 500 个字符的提醒内容。:|
+reminder_invalid_message#提醒内容必须为 1 到 500 个字符。:|
+plugin_description_reminder#可设置秒、分钟或小时倒计时提醒，时间到后及 VPet 启动时都会读出提醒内容。:|
+reminder_daily_speech#时间到了：{0}:|
+reminder_set#已设置 {0} {1} 后的提醒：{2} (ID: {3}):|
+reminder_timer_speech#时间到了：“{0}”:|
+reminder_invalid_duration#提醒时长必须在 1 秒到 365 天之间。:|
+reminder_not_found#未找到提醒。:|
+reminder_storage_unavailable#提醒存储尚未初始化。:|
+reminder_unknown_action#未知操作。请使用 set、list 或 cancel。:|
+reminder_plugin_stopping#插件正在停止，无法接收新提醒。:|
+reminder_error_time#错误：time 必须是正整数。:|
+reminder_error_unit#错误：unit 只能是 seconds、minutes 或 hours。:|
+reminder_error_event#错误：event 必须包含 1 到 500 个字符。:|
+reminder_error_delay_limit#错误：提醒延迟超出支持范围。:|
+reminder_limit_reached#待处理提醒已达到 100 条上限。请先取消一条再添加。:|
+reminder_none_pending#当前没有待处理的提醒。:|
+reminder_error_cancel_id#错误：请输入要取消的提醒 ID。:|
+reminder_cancel_not_found#没有找到 ID 以“{0}”开头的提醒。:|
+reminder_cancel_ambiguous#ID 不够具体，请使用提醒列表中更多的 ID 字符。:|
+reminder_cancelled#已取消提醒 {0}。:|
+plugin_parameters_reminder#action(string: set/list/cancel，可选), time(int，set 时必填), unit(string，可选: seconds/minutes/hours), event(string，set 时必填), id(string，cancel 时必填):|
+plugin_examples_reminder#reminder time(10), unit(seconds), event("检查烤箱") | reminder action(list) | reminder action(cancel), id(abc12345):|
+reminder_list_item#{0} | {1} | {2}:|

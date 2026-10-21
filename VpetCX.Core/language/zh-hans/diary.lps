@@ -1,0 +1,25 @@
+plugin_description_diary#在本地保存日记，并可查看、搜索和删除。:|
+diary_storage_location#日记保存位置：{0}:|
+diary_unknown_action#未知操作：{0}。请使用 view、write、search 或 delete。:|
+diary_operation_failed#无法操作日记：{0}:|
+diary_error_write_text#错误：请输入 1 到 4000 个字符，例如 text("日记内容")。:|
+diary_limit_reached#日记已达到 {0} 条上限。请先删除旧条目再添加。:|
+diary_saved#日记已于 {0:yyyy-MM-dd HH:mm} 保存。ID：{1}:|
+diary_error_search_text#错误：请在 text(...) 中输入搜索关键词。:|
+diary_search_no_results#没有找到包含“{0}”的日记。:|
+diary_error_delete_id#错误：请输入要删除的日记 ID（可在查看或搜索结果中找到）。:|
+diary_delete_not_found#没有找到 ID 以“{0}”开头的日记。:|
+diary_delete_ambiguous#ID 不够具体，请使用搜索结果中更多的 ID 字符。:|
+diary_deleted#已删除日记 {0}。:|
+diary_empty#还没有日记条目。:|
+plugin_parameters_diary#action(string: view/write/search/delete), text(string，write/search 时必填), search(string，text 的旧别名), id(string，delete 时必填):|
+plugin_examples_diary#diary action(write), text("一条示例日记") | diary action(search), text("示例"):|
+diary_window_title#日记管理:|
+diary_window_entry_hint#在此输入日记内容:|
+diary_window_search_hint#搜索日记:|
+diary_window_id_hint#要删除的条目 ID:|
+diary_window_add#保存条目:|
+diary_window_list#显示最近条目:|
+diary_window_search#搜索:|
+diary_window_delete#按 ID 删除:|
+diary_entry_line#[{0}] {1}: {2}:|

@@ -1,0 +1,39 @@
+menu_reminder#提醒:|
+console_no_utilities#沒有可用工具:|
+console_no_plugins#在 MOD 資料夾中找不到外掛程式。:|
+console_arguments#參數:|
+console_example#範例:|
+console_usage#用法:|
+console_argument_placeholder#參數:|
+console_ready#就緒:|
+console_disabled#工具已停用:|
+console_settings_save_failed#無法儲存設定:|
+console_restart_required#設定已儲存。請重新啟動 VPet 以套用變更。:|
+console_language_save_failed#無法儲存語言：{0}:|
+console_subtitle#工具中心:|
+console_settings#設定:|
+console_settings_description#啟用或停用的變更將於重新啟動 VPet 後生效，「自選」中的對應工具視窗也會同步更新。:|
+console_language#語言:|
+console_enabled_count#已啟用 {0} 個工具:|
+console_enable#啟用:|
+console_disable#停用:|
+console_running#正在執行...:|
+console_run#執行:|
+console_footer_help#選擇工具查看說明 · 按 Enter 執行:|
+console_command_hint#在 VpetCX mod 設定中管理工具:|
+console_result_placeholder#指令結果將顯示於此處。:|
+console_enter_command#請輸入指令:|
+console_running_status#正在執行:|
+console_command_completed#指令已完成。:|
+console_completed_status#已完成:|
+console_error#錯誤:|
+plugin_diary#日誌:|
+plugin_reminder#提醒:|
+plugin_weather#天氣:|
+language_name#繁體中文:|
+menu_diary#日誌:|
+menu_weather#天氣:|
+api_started#VpetCX HTTP API 服務已啟動: {0}:|
+utility_disabled#此工具目前已在 Mod 設定中停用。:|
+console_toggle_enable#啟用:|
+console_toggle_disable#停用:|

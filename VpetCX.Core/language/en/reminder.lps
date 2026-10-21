@@ -1,0 +1,44 @@
+reminder_title#Reminder:|
+reminder_list_title#Countdown reminders:|
+reminder_new#New reminder:|
+reminder_delete_selected#Delete selected:|
+reminder_details#Reminder details:|
+reminder_countdown_duration#Remind me in:|
+reminder_unit_hours#Hours:|
+reminder_unit_minutes#Minutes:|
+reminder_unit_seconds#Seconds:|
+reminder_message#Your reminder:|
+reminder_save#Save changes:|
+reminder_empty_list#No pending reminders.:|
+reminder_list_countdown#Total reminders: {0}:|
+reminder_delivered#Delivered (will repeat when VPet starts):|
+reminder_added#Countdown reminder added.:|
+reminder_select_to_edit#Select a reminder to edit, or use New reminder.:|
+reminder_saved#Changes saved.:|
+reminder_delete_failed#Could not delete reminder.:|
+reminder_deleted#Reminder deleted.:|
+reminder_save_failed#Could not save reminder: {0}:|
+reminder_validation#Enter reminder text from 1 to 500 characters.:|
+reminder_invalid_message#Reminder text must contain 1 to 500 characters.:|
+plugin_description_reminder#Set countdown reminders in seconds, minutes, or hours. VPet speaks when each timer expires and repeats it when VPet starts.:|
+reminder_daily_speech#Reminder: {0}:|
+reminder_set#Reminder set for {0} {1}: {2} (ID: {3}):|
+reminder_timer_speech#It's time to: "{0}":|
+reminder_invalid_duration#Duration must be between 1 second and 365 days.:|
+reminder_not_found#Reminder was not found.:|
+reminder_storage_unavailable#Reminder storage is not initialized.:|
+reminder_unknown_action#Unknown action. Use set, list, or cancel.:|
+reminder_plugin_stopping#The plugin is stopping and cannot accept new reminders.:|
+reminder_error_time#Error: time must be a positive integer.:|
+reminder_error_unit#Error: unit must be seconds, minutes, or hours.:|
+reminder_error_event#Error: event must contain 1 to 500 characters.:|
+reminder_error_delay_limit#Error: Reminder delay exceeds the supported limit.:|
+reminder_limit_reached#The limit of 100 pending reminders has been reached. Cancel one before adding another.:|
+reminder_none_pending#There are no pending reminders.:|
+reminder_error_cancel_id#Error: Enter the ID of the reminder to cancel.:|
+reminder_cancel_not_found#No reminder was found with an ID starting with '{0}'.:|
+reminder_cancel_ambiguous#The ID is not specific enough. Use more characters from the reminder list.:|
+reminder_cancelled#Reminder {0} was cancelled.:|
+plugin_parameters_reminder#action(string: set/list/cancel, optional), time(int, required for set), unit(string, optional: seconds/minutes/hours), event(string, required for set), id(string, required for cancel):|
+plugin_examples_reminder#reminder time(10), unit(seconds), event("check the oven") | reminder action(list) | reminder action(cancel), id(abc12345):|
+reminder_list_item#{0} | {1} | {2}:|

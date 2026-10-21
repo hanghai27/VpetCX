@@ -1,0 +1,39 @@
+menu_reminder#Reminder:|
+console_no_utilities#No utilities:|
+console_no_plugins#No plugins were found in the mod folder.:|
+console_arguments#ARGUMENTS:|
+console_example#EXAMPLE:|
+console_usage#USAGE:|
+console_argument_placeholder#arguments:|
+console_ready#READY:|
+console_disabled#UTILITY DISABLED:|
+console_settings_save_failed#SETTINGS COULD NOT BE SAVED:|
+console_restart_required#Settings saved. Please restart VPet to apply the changes.:|
+console_language_save_failed#Language could not be saved: {0}:|
+console_subtitle#UTILITY CENTER:|
+console_settings#Settings:|
+console_settings_description#Enable/disable changes apply after restarting VPet. Matching utility windows in DIY will be updated as well.:|
+console_language#Language:|
+console_enabled_count#{0} UTILITIES ENABLED:|
+console_enable#Enable:|
+console_disable#Disable:|
+console_running#Running...:|
+console_run#Run:|
+console_footer_help#Select a utility for help · Press Enter to run:|
+console_command_hint#Manage utilities in VpetCX mod settings:|
+console_result_placeholder#Command results will appear here.:|
+console_enter_command#ENTER A COMMAND:|
+console_running_status#RUNNING:|
+console_command_completed#Command completed.:|
+console_completed_status#COMPLETED:|
+console_error#ERROR:|
+plugin_diary#Diary:|
+plugin_reminder#Reminder:|
+plugin_weather#Weather:|
+language_name#English:|
+menu_diary#Diary:|
+menu_weather#Weather:|
+api_started#VpetCX HTTP API started: {0}:|
+utility_disabled#This utility is currently disabled in mod settings.:|
+console_toggle_enable#Enable:|
+console_toggle_disable#Disable:|

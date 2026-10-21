@@ -1,0 +1,46 @@
+plugin_description_weather#Open-Meteoを使って世界各地の現在の天気と4日間の予報を取得します。:|
+weather_error_city#エラー: 1～120文字の都市名を入力してください。:|
+weather_error_type#エラー: type は current または forecast を指定してください。:|
+weather_no_location#「{0}」が見つかりません。より具体的な都市名をお試しください。:|
+weather_connection_failed#Open-Meteoに接続できません。インターネット接続を確認して、もう一度お試しください。:|
+weather_timeout#Open-Meteoのリクエストがタイムアウトしました。もう一度お試しください。:|
+weather_invalid_response#Open-Meteoから無効なデータが返されました。しばらくしてからお試しください。:|
+weather_incomplete_data#この場所の天気データが不完全です。:|
+weather_current#現在の天気:|
+weather_conditions#天気:|
+weather_temperature#気温:|
+weather_feels_like#体感温度:|
+weather_humidity#湿度:|
+weather_precipitation#降水量:|
+weather_wind#風:|
+weather_precipitation_chance#、降水確率 :|
+weather_forecast_title#4日間の天気予報:|
+weather_condition_clear#快晴:|
+weather_condition_mainly_clear#おおむね晴れ:|
+weather_condition_partly_cloudy#一部曇り:|
+weather_condition_overcast#曇り:|
+weather_condition_fog#霧:|
+weather_condition_drizzle#霧雨:|
+weather_condition_freezing_drizzle#凍る霧雨:|
+weather_condition_rain#雨:|
+weather_condition_freezing_rain#凍雨:|
+weather_condition_snow#雪:|
+weather_condition_rain_showers#にわか雨:|
+weather_condition_snow_showers#にわか雪:|
+weather_condition_thunderstorm#雷雨:|
+weather_condition_thunderstorm_hail#ひょうを伴う雷雨:|
+weather_condition_unknown#不明な天気:|
+plugin_parameters_weather#city(string、必須), type(string、任意: current/forecast):|
+plugin_examples_weather#weather city(Hanoi), type(current) | weather city(Tokyo), type(forecast):|
+weather_window_title#天気:|
+weather_error_location#1～120文字の場所を入力してください。:|
+weather_window_location_hint#都市、地区、または地域を入力:|
+weather_window_search#場所を検索:|
+weather_window_select_location#リストから場所を選択してください:|
+weather_window_locations_found#{0}件の場所が見つかりました。天気を表示する場所を選択してください。:|
+weather_window_current#現在の天気:|
+weather_window_forecast#4日間の予報:|
+weather_window_speak#LocalSpeechServerで天気をペットに読み上げる:|
+weather_window_spoken#ペットが天気を読み上げています。:|
+weather_window_speech_failed#LocalSpeechServerに音声を送信できませんでした。:|
+weather_window_placeholder#都市や地域を入力して検索し、場所を選択して天気を確認してください。:|

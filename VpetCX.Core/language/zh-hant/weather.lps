@@ -1,0 +1,46 @@
+plugin_description_weather#使用 Open-Meteo 查詢全球目前天氣與未來 4 天預報。:|
+weather_error_city#錯誤：請輸入 1 到 120 個字元的城市名稱。:|
+weather_error_type#錯誤：type 只能是 current 或 forecast。:|
+weather_no_location#找不到「{0}」。請嘗試輸入更具體的城市名稱。:|
+weather_connection_failed#無法連線至 Open-Meteo。請檢查網路連線後再試。:|
+weather_timeout#Open-Meteo 要求逾時，請再試一次。:|
+weather_invalid_response#Open-Meteo 傳回無效資料，請稍後再試。:|
+weather_incomplete_data#Open-Meteo 傳回的此地點天氣資料不完整。:|
+weather_current#目前天氣:|
+weather_conditions#天氣:|
+weather_temperature#氣溫:|
+weather_feels_like#體感溫度:|
+weather_humidity#濕度:|
+weather_precipitation#降水量:|
+weather_wind#風:|
+weather_precipitation_chance#，降水機率 :|
+weather_forecast_title#未來 4 天的天氣預報:|
+weather_condition_clear#晴朗:|
+weather_condition_mainly_clear#大致晴朗:|
+weather_condition_partly_cloudy#局部多雲:|
+weather_condition_overcast#陰天:|
+weather_condition_fog#霧:|
+weather_condition_drizzle#毛毛雨:|
+weather_condition_freezing_drizzle#凍毛毛雨:|
+weather_condition_rain#雨:|
+weather_condition_freezing_rain#凍雨:|
+weather_condition_snow#雪:|
+weather_condition_rain_showers#陣雨:|
+weather_condition_snow_showers#陣雪:|
+weather_condition_thunderstorm#雷暴:|
+weather_condition_thunderstorm_hail#伴有冰雹的雷暴:|
+weather_condition_unknown#未知天氣:|
+plugin_parameters_weather#city(string，必填), type(string，可選: current/forecast):|
+plugin_examples_weather#weather city(Hanoi), type(current) | weather city(Tokyo), type(forecast):|
+weather_window_title#天氣:|
+weather_error_location#請輸入 1 到 120 個字元的地點。:|
+weather_window_location_hint#輸入城市、區縣或地區:|
+weather_window_search#搜尋地點:|
+weather_window_select_location#請從清單中選擇地點:|
+weather_window_locations_found#找到 {0} 個地點。請選擇一個以查看天氣。:|
+weather_window_current#目前天氣:|
+weather_window_forecast#4 天預報:|
+weather_window_speak#使用 LocalSpeechServer 為寵物朗讀天氣:|
+weather_window_spoken#寵物正在朗讀天氣資訊。:|
+weather_window_speech_failed#無法將語音傳送至 LocalSpeechServer。:|
+weather_window_placeholder#輸入城市、區縣或地區，搜尋並選擇地點以查看天氣。:|
